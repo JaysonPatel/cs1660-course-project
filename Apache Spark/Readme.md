@@ -1,1 +1,1 @@
-This is the url for the spark image I am using and I have also included the docker-compose used to run it. The image makes one master and 2 worker nodes. We can use the spark-shell spark://0fc6f79dbc93:7077 command within the master to open the spark console.
+This is the url for the spark image I am using https://hub.docker.com/r/bitnami/spark and I have also included the docker-compose used to run it. The image makes one master and 2 worker nodes. We can use the spark-shell spark://0fc6f79dbc93:7077 command within the master to open the spark console.
