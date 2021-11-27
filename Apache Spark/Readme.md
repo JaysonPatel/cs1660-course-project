@@ -1,6 +1,6 @@
 # Spark
 ## Overview 
-The Hadoop deployment consists of a name node that is connected to two data nodes. The name node has an open port on 9870 that allows you to access the web service to view activity and monitor data nodes. It also has an open port of 9000 for hdfs requests.
+The Spark deployment consists of a master node that is connected to two worker nodes. The master node has an open port on 8080 that allows you to access the web service to view activity and monitor worker nodes.
 
 ## Spark Master
 1. I took the image from bitnami/spark and used the `docker pull bitnami/spark command` in the cloud shell to pull the image from docker.
