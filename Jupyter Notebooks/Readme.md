@@ -10,6 +10,6 @@ Jupyter Notebooks only consists of a single image. The image hosts a jupyter not
 6. I then exposed ports 8888:8888 and created a service for the jupyter notebook 
 
 ## Screenshots
-![Alt text](https://github.com/JaysonPatel/cs1660-course-project/blob/main/Apache%20Hadoop/Hadoop%20Running.png?raw=true "Jupyter Running")
-![Alt text](https://github.com/JaysonPatel/cs1660-course-project/blob/main/Apache%20Hadoop/Hadoop%20Workload.png?raw=true "Workloads")
-![Alt text](https://github.com/JaysonPatel/cs1660-course-project/blob/main/Apache%20Hadoop/Services.png?raw=true "Services")
+![Alt text](https://github.com/JaysonPatel/cs1660-course-project/blob/main/Jupyter%20Notebooks/Jupyter%20Running.png?raw=true "Jupyter Running")
+![Alt text](https://github.com/JaysonPatel/cs1660-course-project/blob/main/Jupyter%20Notebooks/Running%20Workload.png?raw=true "Workloads")
+![Alt text](https://github.com/JaysonPatel/cs1660-course-project/blob/main/Jupyter%20Notebooks/Services.png?raw=true "Services")
