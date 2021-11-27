@@ -18,3 +18,5 @@ The Hadoop deployment consists of a name node that is connected to two data node
 4. I navigated to my kubernetes cluster and deployed this image using the ENVIRONMENT VARIABLES from the docker compose and .env file on the BDE git.
 5. I needed to change one of the ENVIRONMENT VARIABLES to the location of the namenode which was specified by the ip and port in the service that I had created.
 6. After deploying the image I used to rescale action to limit the pods to 2.
+
+![Screenshot](cs1660-course-project/Apache Hadoop/Hadoop Running.png)
