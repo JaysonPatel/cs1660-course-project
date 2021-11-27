@@ -11,7 +11,7 @@ The Hadoop deployment consists of a name node that is connected to two data node
 6. I then exposed ports 9000:9000 and 9078:9078 and created a service for the namenode 
 
 
-## Name Node
+## Data Node
 1. I took the image from bde2020/hadoop-datanode and used the `docker pull bde2020/hadoop-datanode command` in the cloud shell to pull the image from docker.
 2. I then ran `docker tag bde2020/hadoop-datanode gcr.io/$projectname/datanode` to tag this with the path to my gcr images.
 3. I then used `docker push gcr.io/$projectname/datanode` to make this a usable image for deployment.
