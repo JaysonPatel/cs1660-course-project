@@ -11,5 +11,5 @@ Jupyter Notebooks only consists of a single image. The image hosts a jupyter not
 
 ## Screenshots
 ![Alt text](https://github.com/JaysonPatel/cs1660-course-project/blob/main/Jupyter%20Notebooks/Jupyter%20Running.png?raw=true "Jupyter Running")
-![Alt text](https://github.com/JaysonPatel/cs1660-course-project/blob/main/Jupyter%20Notebooks/Running%20Workload.png?raw=true "Workloads")
+![Alt text](https://github.com/JaysonPatel/cs1660-course-project/blob/main/Jupyter%20Notebooks/Jupyter%20Workload.png?raw=true "Workloads")
 ![Alt text](https://github.com/JaysonPatel/cs1660-course-project/blob/main/Jupyter%20Notebooks/Services.png?raw=true "Services")
