@@ -19,6 +19,7 @@ The Hadoop deployment consists of a name node that is connected to two data node
 5. I needed to change one of the ENVIRONMENT VARIABLES to the location of the namenode which was specified by the ip and port in the service that I had created.
 6. After deploying the image I used to rescale action to limit the pods to 2.
 
+## Screenshot
 ![Alt text](https://github.com/JaysonPatel/cs1660-course-project/blob/main/Apache%20Hadoop/Hadoop%20Running.png?raw=true "Hadoop Running")
 ![Alt text](https://github.com/JaysonPatel/cs1660-course-project/blob/main/Apache%20Hadoop/Hadoop%20Workload.png?raw=true "Workloads")
 ![Alt text](https://github.com/JaysonPatel/cs1660-course-project/blob/main/Apache%20Hadoop/Services.png?raw=true "Services")
