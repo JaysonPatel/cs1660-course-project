@@ -4,7 +4,7 @@ The Spark deployment consists of a master node that is connected to two worker n
 
 ## Spark Master
 1. I took the image from bitnami/spark and used the `docker pull bitnami/spark command` in the cloud shell to pull the image from docker.
-2. I then ran `docker tag bde2020/hadoop-namenode gcr.io/$projectname/bitnami/spark` to tag this with the path to my gcr images.
+2. I then ran `docker tag bitnami/spark gcr.io/$projectname/bitnami/spark` to tag this with the path to my gcr images.
 3. I then used `docker push gcr.io/$projectname/bitnami/spark` to make this a usable image for deployment.
 4. I navigated to my kubernetes cluster and deployed this image using the ENVIRONMENT VARIABLES from the docker compose file on the bitnami git.
 5. The main ENVIRONMENT VARIABLE to change is SPARK_MODE=master 
