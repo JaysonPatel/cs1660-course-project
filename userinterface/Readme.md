@@ -1,5 +1,5 @@
 # Graphical User Interface
-I created a GUI using flask which consists of 4 buttons that navigate you to the endpoints of each of the 4 services. I made a docker image from scratch for this for the extra credit.
+I created a GUI using flask which consists of 4 buttons that navigate you to the endpoints of each of the 4 services. I made a docker image from scratch for this for the extra credit. All applications that were hosted on the cloud can be accessed via the 34.138.54.97:5000 address where the flask app is hosted.
 
 ## Making the GUI
 1. I started by making the basic flask application in python and adding a header and 4 buttons that navigate to the endpoints when clicked. There was not much backend needed at all for this.
