@@ -2,7 +2,7 @@
 ## Overview 
 Jupyter Notebooks only consists of a single image. The image hosts a jupyter notebooks data science library on port 8888.
 
-## Jupyter Notebooks Workload
+## Jupyter Notebooks
 1. I took the image from jupyter/datascience-notebook and used the `docker pull jupyter/datascience-notebook command` in the cloud shell to pull the image from docker.
 2. I then ran `docker tag bde2020/hadoop-namenode gcr.io/$projectname/jupyter/datascience-notebook` to tag this with the path to my gcr images.
 3. I then used `docker push gcr.io/$projectname/jupyter/datascience-notebook` to make this a usable image for deployment.
